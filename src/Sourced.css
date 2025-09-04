@@ -1,0 +1,9 @@
+.Footer {
+  color: black;
+  font-size: large;
+}
+
+.Footer a {
+  color: blue;
+  text-decoration: none;
+}

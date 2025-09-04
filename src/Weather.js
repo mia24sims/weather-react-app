@@ -98,16 +98,16 @@ export default function Weather(){
           <span className="monday-deg">13&deg;</span>
         </li>
         <li className="day">
-          <span className="tuesday">Tues</span>
+          <span className="tuesday">Tue</span>
           <br />
           <div>
             {" "}
             <Icons defaults="RAIN" size={40} />
           </div>
           <span className="tuesday-deg">13&deg;</span>
-          
         </li>
       </ul>
+    
     </div>
   );
 }
