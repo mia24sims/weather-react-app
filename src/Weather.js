@@ -1,8 +1,10 @@
 import React from "react";
 import "./Weather.css";
+import Icons from "./Icons.js"
 
 
 export default function Weather(){
+
   return (
     <div className="Weather">
       <ul className="cityList">
@@ -41,47 +43,69 @@ export default function Weather(){
         Thursday <span className="current-time">15:54</span>
       </p>
       <p className="current-description">Clouds</p>
-          <section className="stats">
-            <p className="current-temp">
-        <span className="current-icon">🌫️</span> 14<span className="C">&deg;C</span>
-      </p>
+      <section className="stats">
+        <p className="current-temp">
+          <span className="current-icon">
+            {" "}
+            <Icons defaults="CLOUDY" size={50} />
+          </span>{" "}
+          14
+          <span className="C">&deg;C</span>
+        </p>
 
-      <p className="precipitation">
-        Precipitation:<span className="Precipitation">82</span>%
-  
-    </p><p className="wind" >
-        Wind:<span>4</span>km/h
-      </p></section>
+        <p className="precipitation">
+          Precipitation:<span className="Precipitation"> 82</span>%
+        </p>
+        <p className="wind">
+          Wind:<span> 4</span>km/h
+        </p>
+      </section>
       <ul className="forecast">
-        <li>
-          Fri
+        <li className="day">
+          <span className="friday"> Fri</span>
           <br />
-          <div>🌫️</div>
-          13&deg;
+          <div>
+            {" "}
+            <Icons defaults="CLOUDY" size={40} />
+          </div>
+          <span className="friday-deg"> 13&deg;</span>
         </li>
-        <li>
-          Sat
+        <li className="day">
+          <span className="saturday">Sat</span>
           <br />
-          <div>☀️</div>
-          13&deg;
+          <div>
+            {" "}
+            <Icons defaults="CLEAR_DAY" size={40} />
+          </div>
+          <span className="saturday-deg">13&deg;</span>
         </li>
-        <li>
-          Sun
+        <li className="day">
+          <span className="sunday">Sun</span>
           <br />
-          <div>🌫️</div>
-          13&deg;
+          <div>
+            {" "}
+            <Icons defaults="CLOUDY" size={40} />
+          </div>
+          <span className="sunday-deg">13&deg;</span>
         </li>
-        <li>
-          Mon
+        <li className="day">
+          <span className="monday">Mon</span>
           <br />
-          <div>☀️</div>
-          13&deg;
+          <div>
+            {" "}
+            <Icons defaults="CLEAR_DAY" size={40} />
+          </div>
+          <span className="monday-deg">13&deg;</span>
         </li>
-        <li>
-          Tues
+        <li className="day">
+          <span className="tuesday">Tues</span>
           <br />
-          <div>🌧️</div>
-          13&deg;
+          <div>
+            {" "}
+            <Icons defaults="RAIN" size={40} />
+          </div>
+          <span className="tuesday-deg">13&deg;</span>
+          
         </li>
       </ul>
     </div>

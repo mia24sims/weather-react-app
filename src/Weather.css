@@ -1,42 +1,40 @@
-.Weather{
+.Weather {
   text-align: left;
   border: 1px solid grey;
   border-radius: 10%;
   padding: 10px 25px 25px 10px;
   box-shadow: 2px 4px 2px rgba(128, 128, 128, 0.519);
 }
-.Weather .cityList{
+.Weather .cityList {
   text-align: left;
   margin-left: -30px;
   margin-bottom: -3px;
 }
-.Weather li{
+.Weather li {
   display: inline-block;
   margin-right: 15px;
 }
-.Weather a{  
-color: blue;
-text-decoration: none;
-font-size: 15px;
-
+.Weather a {
+  color: blue;
+  text-decoration: none;
+  font-size: 15px;
 }
 
-.Weather form{
+.Weather form {
   text-align: left;
   margin-left: 10px;
 }
 
-.Weather .searchBar{
+.Weather .searchBar {
   padding: 7px 18px;
   border-radius: 5%;
   border: 1px solid grey;
   box-shadow: 2px 3px 2px grey;
   margin-right: 5px;
-
 }
 
-.Weather .searchButton{
-padding: 9px 10px;
+.Weather .searchButton {
+  padding: 9px 10px;
   border-radius: 4%;
   border: 1px solid blue;
   margin-right: 5px;
@@ -44,82 +42,138 @@ padding: 9px 10px;
   color: white;
 }
 
-.Weather .currentButton{
+.Weather .currentButton {
   padding: 9px 10px;
   border-radius: 4%;
-    border: 1px solid green;
-    background-color: green;
+  border: 1px solid green;
+  background-color: green;
   color: white;
   margin-right: 10px;
 }
 
-.Weather h1{
+.Weather h1 {
   color: rgba(86, 80, 80, 0.686);
   font-size: large;
   margin-left: 10px;
 }
 
-.Weather .current-day{
+.Weather .current-day {
   color: rgba(86, 80, 80, 0.686);
   font-size: 15px;
-  line-height: .5;
+  line-height: 0.5;
   font-weight: 500;
   margin-left: 10px;
 }
-.Weather .current-description{
+.Weather .current-description {
   color: rgba(86, 80, 80, 0.686);
   font-size: 15px;
-  line-height: .5;
+  line-height: 0.5;
   font-weight: 500;
   margin-left: 10px;
 }
 
-
-
-.Weather .current-icon{
+.Weather .current-icon {
   font-size: 25px;
 }
-.Weather .current-temp{
+.Weather .current-temp {
   font-size: 45px;
   text-align: left;
-   color: rgba(86, 80, 80, 0.686);
+  color: rgb(0, 0, 0);
 }
 
-.Weather .C{
+.Weather .C {
   font-size: 20px;
   font-weight: 600;
-position: absolute;
-top: 355px;
-left: 290px;
+position: relative;
+top: -20px;
+
 }
 
-.Weather .precipitation{
+.Weather .precipitation {
   text-align: right;
   color: rgba(86, 80, 80, 0.686);
-  font-size: 15px;
-    font-weight: 500;
-line-height: .1;
-margin-top: -85px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.1;
+  margin-top: -85px;
 }
-.Weather .wind{
+.Weather .wind {
   text-align: right;
- color: rgba(86, 80, 80, 0.686);
-  font-size: 15px;
-    font-weight: 500;
-
+  color: rgba(86, 80, 80, 0.686);
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  left: -40px;
 }
 
-.Weather .forecast{
+.Weather .forecast {
   color: black;
   margin-top: 30px;
 }
 
+.Weather .day{
+ padding-right: 20px ;
+ margin-right: 40px;
+}
 
+.Weather .friday{
+  font-size: 15px;
+  margin-left: 11px;
+    color: rgba(86, 80, 80, 0.993);
 
+}
 
+.Weather .saturday{
+  font-size: 15px;
+  margin-left: 10px;
+    color: rgba(86, 80, 80, 0.993);
 
+}
 
+.Weather .sunday{
+  font-size: 15px;
+  margin-left: 7px;
+    color: rgba(86, 80, 80, 0.993);
+}
+.Weather .monday{
+  font-size: 15px;
+  margin-left: 5px;
+    color: rgba(86, 80, 80, 0.993);
 
+}
 
+.Weather .tuesday{
+  font-size: 15px;
+  margin-left: 5px;
+    color: rgba(86, 80, 80, 0.993);
 
+}
 
+.Weather .friday-deg{
+  font-size: 15px;
+  margin-left: 10px;
+    color: rgba(86, 80, 80, 0.993);
+}
+.Weather .saturday-deg{
+  font-size: 15px;
+  margin-left: 10px;
+    color: rgba(86, 80, 80, 0.993);
+}
+
+.Weather .sunday-deg{
+  font-size: 15px;
+  margin-left: 10px;
+    color: rgba(86, 80, 80, 0.993);
+}
+
+.Weather .monday-deg{
+  font-size: 15px;
+  margin-left: 10px;
+    color: rgba(86, 80, 80, 0.993);
+}
+
+.Weather .tuesday-deg{
+  font-size: 15px;
+  margin-left: 10px;
+    color: rgba(86, 80, 80, 0.993);
+}
